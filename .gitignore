@@ -1,0 +1,23 @@
+# 원본 명세서와 임시 자료는 개인 비공개 위치에서 관리
+raw/
+imports/
+exports/
+tmp/
+*.xlsx
+*.xls
+*.pdf
+*.zip
+*.log
+.DS_Store
+
+# 인증정보
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+*.pem
+*.key
+
+# personal/profile.md, progress.md와 장기 기록은 개인 Private GitHub에 저장한다.
+# 공개 배포 시 실제 개인 파일을 포함하지 않는다. 이미 추적된 파일에는 소급 적용되지 않는다.
